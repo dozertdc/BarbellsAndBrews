@@ -1,0 +1,32 @@
+/*center tables*/
+table {
+	margin: auto;
+}
+/*give padding and change font size for the results tables*/
+.results{
+	padding: 100px 50px 50px 50px;
+	font-size: 20px;
+}
+/*make the results table headers centered and give padding*/ 
+.results th {
+	text-align: center;
+	padding: 5px 10px 5px 10px;
+}
+/*give the results table data containers a centered alignment */
+.results td{
+	text-align: center;
+}
+
+/*alternate color of rows for tables*/
+tr:nth-child(even) {
+	background: #CCC
+}
+
+tr:nth-child(odd) {
+	background: #FFF
+}
+
+div.form {
+	margin-top: 100px;
+	margin-left: 100px;
+}
